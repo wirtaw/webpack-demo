@@ -1,3 +1,3 @@
-import component from './component/component.js';
+import component from './component.js';
 
 document.body.appendChild(component());
