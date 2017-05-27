@@ -1,0 +1,21 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Webpack demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Vladimir Poplavskij",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7"
+  }
+}
