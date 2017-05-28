@@ -4,14 +4,18 @@
   "description": "Webpack demo",
   "main": "index.js",
   "scripts": {
+    "lint:js": "eslint app/ webpack.*.js --cache --silent",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --env development",
-    "build": "webpack --env production"
+    "build": "webpack --env.target production"
   },
   "keywords": [],
   "author": "Vladimir Poplavskij",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-react": "^7.0.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
